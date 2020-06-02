@@ -1,0 +1,7 @@
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\bin\Debug\palindrome.exe.config
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\bin\Debug\palindrome.exe
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\bin\Debug\palindrome.pdb
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\obj\Debug\palindrome.csprojAssemblyReference.cache
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\obj\Debug\palindrome.csproj.CoreCompileInputs.cache
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\obj\Debug\palindrome.exe
+C:\Users\kylem\OneDrive\Web Design\palindrome_c\palindrome\palindrome\obj\Debug\palindrome.pdb
