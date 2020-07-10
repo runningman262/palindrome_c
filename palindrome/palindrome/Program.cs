@@ -9,31 +9,32 @@ namespace palindrome
 {
     class Program
     {
-        static string userPhraseReversed;
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a word or phrase to test if it is a palindrome.");
             //string userPhrase = Console.ReadLine().ToLower();
             string userPhrase = Regex.Replace(Console.ReadLine().ToLower(), @"\s", "");
-            ReversePhrase(userPhrase);
-            CheckPalindrome(userPhrase, userPhraseReversed);
+            string userPhraseReversed = ReversePhrase(userPhrase);
+            string palendromeResult = CheckPalindrome(userPhrase, userPhraseReversed);
+            Console.WriteLine(palendromeResult);
         }
 
-        static void ReversePhrase(string phraseToReverse)
+        static string ReversePhrase(string phraseToReverse)
         {
             int phraseLength = phraseToReverse.Length;
-            userPhraseReversed = "";
+            string userPhraseReversed = "";
             while (phraseLength > 0)
             {
                 phraseLength--;
                 userPhraseReversed = userPhraseReversed + phraseToReverse.Substring(phraseLength, 1);
             }
+            return userPhraseReversed;
         }
 
-        static void CheckPalindrome(string phrase1, string phrase2)
+        static string CheckPalindrome(string phrase1, string phrase2)
         {
             string result = (phrase1 == phrase2) ? "Palindrome!" : "Not a palindrome!";
-            Console.WriteLine(result);
+            return result;
         }
     }
 }
